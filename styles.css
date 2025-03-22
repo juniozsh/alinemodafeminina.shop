@@ -1,0 +1,116 @@
+/* Geral */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container-fluid {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #004aad; /* Azul intenso */
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+}
+
+.navbar-brand span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8f9fa; /* Branco */
+}
+
+.navbar-nav .nav-link {
+    color: #f8f9fa; /* Branco */
+    padding: 0.5rem;
+}
+
+/* Hero Section */
+.hero {
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #004aad; /* Azul intenso */
+}
+
+.hero p {
+    font-size: 1.25rem;
+    color: #343a40; /* Cinza escuro */
+}
+
+/* Carousel */
+#carouselBanner {
+    margin: 30px auto 20px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    aspect-ratio: 16 / 9;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cards */
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #004aad; /* Azul intenso */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #343a40; /* Cinza escuro */
+}
+
+.card-body .btn {
+    background-color: #ff5722; /* Laranja vibrante */
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.card-body .btn:hover {
+    background-color: #004aad; /* Azul intenso */
+}
+
+/* Footer */
+.footer {
+    background-color: #004aad; /* Azul intenso */
+    color: #f8f9fa; /* Branco */
+    padding: 20px;
+    margin: 20px 0 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.footer h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.footer a {
+    color: #f8f9fa; /* Links brancos */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
